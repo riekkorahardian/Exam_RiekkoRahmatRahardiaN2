@@ -31,13 +31,13 @@
       When User uncheck the checklist button on Olahraga Pagi Task
      Then User see the Olahraga Pagi task has been unchecked
 
-    @FilterActive//
+    @FilterActive
     Scenario: User filter the Active To-Do task
       Given User already create "Olahraga Pagi" To-Do Task
       When User filter the To-Do task to Active To-Do Task only
       Then User see the Active To-Do Task list only
 
-    @FilterComplete//
+    @FilterComplete
     Scenario: User filter the Completed To-Do Task
       Given User already create "Olahraga Pagi" To-Do Task
       Given User check the checklist button on Olahraga Pagi Task
